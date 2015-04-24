@@ -1,0 +1,30 @@
+[user]
+	email = gilles.robit@af83.com
+	name = zyll
+[core]
+	editor = nvim
+	excludesfile = /home/zyll/.gitignore_global
+[alias]
+	# list aliases
+	aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /' | sort
+
+	# shortcuts
+	st  	= status
+	a   	= add
+	ap  	= add -p
+	ci  	= commit
+	b   	= branch -vvv
+	br  	= branch
+	cl  	= clone
+	co  	= checkout
+	rso 	= remote show origin
+	rbc 	= rebase --continue
+	pr  	= pull --rebase
+
+	cpk 	= cherry-pick
+
+	d   	= diff
+	ds  	= diff --staged
+	wd  	= diff --word-diff
+[color]
+	ui = true
