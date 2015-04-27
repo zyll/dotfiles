@@ -26,3 +26,9 @@ set listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 
 " no swap file
 set noswapfile
+
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+set autoindent
+set autoread
