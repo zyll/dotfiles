@@ -24,6 +24,11 @@ call plug#end()
 set list
 set listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 
+"positioning
+set number
+set ruler
+set rulerformat=%l,%v
+
 " no swap file
 set noswapfile
 
